@@ -20,9 +20,7 @@ function SearchBar() {
 
   return (
     <div>
-        {
-           art && art.map(x => <h2 key={art.id}>{x.title}</h2>)
-        }
+        {art && art.map(x => <h2 key={x.id}>{x.title}</h2>)}
     </div>
   )
 }
